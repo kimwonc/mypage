@@ -6,70 +6,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>2023년 버킷리스트</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700&display=swap');
-
-    * {
-      font-family: 'Hahmlet', serif;
-    }
-
-    a { text-decoration:none !important }
-    
-    .title {
-      color: white;
-      background-color: tomato;
-      font-size: 24px;
-      padding: 4px 14px;
-      border-radius: 8px;
-    }
-
-    .bg {
-      width: 360px;
-      background-image: url("http://s3.ap-norteast-2.amazonaws.com/materials.spartacodingclub.kr/bucketlist/bg-grid.png")
-    }
-
-    .msg {
-      font-weight: bold;
-    }
-
-    .bucket {
-      width: 160px;
-      height: 160px;
-    }
-
-    .img1 {
-      background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
-      background-size: cover;
-      background-position: center;
-    }
-
-    .img2 {
-      background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
-      background-size: cover;
-      background-position: center;
-    }
-
-    .back_btn {
-      color: white;
-      background-color: tomato;
-      width: 100px;
-      height: 30px;
-      text-align: center;
-    }
-  </style>
+  <link href="style.css" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
 
 </head>
 
-<body class="bg-t2 center">
+<body class="bg center">
   <a href="index.html"><h1 class="title-t2">2023 신년계획</h1></a>
-  <p class="msg">올해는 반드시 해낸다!!!</p>
-  <div class="bucket img1-t2 center">매주 1권씩 독서 후 리뷰쓰기</div>  
-  <h2>To do list</h2>
-  <h4>1. 격주로 도서관 방문 후 2권씩 대출</h4>
-  <h4>2. 틈나는 대로 독서</h4>
-  <h4>3. 한권 독서 마친 후 내용 요약</h4>
-  <p></p>
+  <p class="msg">올해는 반드시 !!!</p>
+  <div class="bucket img1 center">매주 1권씩 독서 후 리뷰쓰기</div>  
+  <ul class="todolists">
+    <li>격주로 도서관 방문 후 2권씩 대출</li>
+    <li>하루 중 시간을 내어 독서</li>
+    <li>한권 독서 마친 후 내용 요약</li>
+  </ul>
   <a href="index.html" class="back_btn">go back</a>
 </body>
 
